@@ -1,0 +1,39 @@
+.transactionHistory {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 8px;
+  border-spacing: 0;
+  overflow: hidden;
+
+  thead {
+    tr {
+      background-color: rgb(115, 156, 209);
+      color: #fff;
+    }
+  }
+
+  th,
+  td {
+    padding: 11px;
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    border-right: 1px solid rgb(216, 215, 215);
+  }
+  tbody {
+    tr {
+      font-size: 14px;
+      color: rgb(143, 139, 139);
+
+      &:nth-child(even) {
+        background-color: rgb(245, 238, 238);
+      }
+    }
+  }
+
+  .type {
+    text-transform: capitalize;
+  }
+}
