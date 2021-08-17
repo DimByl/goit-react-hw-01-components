@@ -7,7 +7,6 @@ import FriendList from "./components/friendList/FriendList";
 import friends from "./components/friendList/friends.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import transactions from "./components/TransactionHistory/transactions.json";
-//import logo from './logo.svg';
 import styles from "./App.scss";
 
 const App = () => (
